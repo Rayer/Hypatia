@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		53A9BEE316267CE2003F5372 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BEE216267CE2003F5372 /* main.cpp */; };
 		53A9BEE516267CE2003F5372 /* MinServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53A9BEE416267CE2003F5372 /* MinServer.1 */; };
+		53A9BEED16282F2A003F5372 /* ServerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BEEB16282F2A003F5372 /* ServerManager.cpp */; };
+		53A9BEF016282F3A003F5372 /* PluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BEEE16282F3A003F5372 /* PluginHandler.cpp */; };
+		53A9BEF616282FA2003F5372 /* ServerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BEF416282FA2003F5372 /* ServerInstance.cpp */; };
+		53A9BEF916282FC2003F5372 /* ServerConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BEF716282FC2003F5372 /* ServerConfiguration.cpp */; };
+		53A9BEFC16282FD2003F5372 /* IServerFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BEFA16282FD2003F5372 /* IServerFactory.cpp */; };
+		53A9BF0316283190003F5372 /* ServerInstanceStub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A9BF0116283190003F5372 /* ServerInstanceStub.cpp */; };
+		62E0E4B9162ACBAA00818126 /* PluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62E0E4B7162ACBAA00818126 /* PluginManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +35,35 @@
 		53A9BEDE16267CE2003F5372 /* MinServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MinServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A9BEE216267CE2003F5372 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		53A9BEE416267CE2003F5372 /* MinServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MinServer.1; sourceTree = "<group>"; };
+		53A9BEEB16282F2A003F5372 /* ServerManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerManager.cpp; sourceTree = "<group>"; };
+		53A9BEEC16282F2A003F5372 /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		53A9BEEE16282F3A003F5372 /* PluginHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PluginHandler.cpp; sourceTree = "<group>"; };
+		53A9BEEF16282F3A003F5372 /* PluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginHandler.h; sourceTree = "<group>"; };
+		53A9BEF416282FA2003F5372 /* ServerInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerInstance.cpp; sourceTree = "<group>"; };
+		53A9BEF516282FA2003F5372 /* ServerInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerInstance.h; sourceTree = "<group>"; };
+		53A9BEF716282FC2003F5372 /* ServerConfiguration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerConfiguration.cpp; sourceTree = "<group>"; };
+		53A9BEF816282FC2003F5372 /* ServerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConfiguration.h; sourceTree = "<group>"; };
+		53A9BEFA16282FD2003F5372 /* IServerFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IServerFactory.cpp; sourceTree = "<group>"; };
+		53A9BEFB16282FD2003F5372 /* IServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServerFactory.h; sourceTree = "<group>"; };
+		53A9BF0116283190003F5372 /* ServerInstanceStub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerInstanceStub.cpp; sourceTree = "<group>"; };
+		53A9BF0216283190003F5372 /* ServerInstanceStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerInstanceStub.h; sourceTree = "<group>"; };
+		62E0E4B7162ACBAA00818126 /* PluginManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PluginManager.cpp; sourceTree = "<group>"; };
+		62E0E4B8162ACBAA00818126 /* PluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginManager.h; sourceTree = "<group>"; };
+		62FBD7141628B17600488D84 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "loki-0.1.7/src"; sourceTree = "<group>"; };
+		62FBD7161628B1AF00488D84 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = "loki-0.1.7/include"; sourceTree = "<group>"; };
+		62FBD7521628BAB900488D84 /* future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = future.hpp; sourceTree = "<group>"; };
+		62FBD7531628BAB900488D84 /* locking_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = locking_ptr.hpp; sourceTree = "<group>"; };
+		62FBD7541628BAB900488D84 /* pool_core.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pool_core.hpp; sourceTree = "<group>"; };
+		62FBD7551628BAB900488D84 /* scope_guard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = scope_guard.hpp; sourceTree = "<group>"; };
+		62FBD7561628BAB900488D84 /* worker_thread.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = worker_thread.hpp; sourceTree = "<group>"; };
+		62FBD7571628BAB900488D84 /* future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = future.hpp; sourceTree = "<group>"; };
+		62FBD7581628BAB900488D84 /* pool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pool.hpp; sourceTree = "<group>"; };
+		62FBD7591628BAB900488D84 /* pool_adaptors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pool_adaptors.hpp; sourceTree = "<group>"; };
+		62FBD75A1628BAB900488D84 /* scheduling_policies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = scheduling_policies.hpp; sourceTree = "<group>"; };
+		62FBD75B1628BAB900488D84 /* shutdown_policies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = shutdown_policies.hpp; sourceTree = "<group>"; };
+		62FBD75C1628BAB900488D84 /* size_policies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = size_policies.hpp; sourceTree = "<group>"; };
+		62FBD75D1628BAB900488D84 /* task_adaptors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = task_adaptors.hpp; sourceTree = "<group>"; };
+		62FBD75E1628BAB900488D84 /* threadpool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = threadpool.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +80,8 @@
 		53A9BED316267CE2003F5372 = {
 			isa = PBXGroup;
 			children = (
+				62FBD74F1628BAB900488D84 /* ThreadPool */,
+				62FBD7151628B18900488D84 /* Loki */,
 				53A9BEE116267CE2003F5372 /* MinServer */,
 				53A9BEDF16267CE2003F5372 /* Products */,
 			);
@@ -61,9 +99,68 @@
 			isa = PBXGroup;
 			children = (
 				53A9BEE216267CE2003F5372 /* main.cpp */,
+				53A9BEEB16282F2A003F5372 /* ServerManager.cpp */,
+				53A9BEEC16282F2A003F5372 /* ServerManager.h */,
+				53A9BEEE16282F3A003F5372 /* PluginHandler.cpp */,
+				53A9BEEF16282F3A003F5372 /* PluginHandler.h */,
+				53A9BEF416282FA2003F5372 /* ServerInstance.cpp */,
+				62E0E4B7162ACBAA00818126 /* PluginManager.cpp */,
+				62E0E4B8162ACBAA00818126 /* PluginManager.h */,
+				53A9BEF516282FA2003F5372 /* ServerInstance.h */,
+				53A9BF0116283190003F5372 /* ServerInstanceStub.cpp */,
+				53A9BF0216283190003F5372 /* ServerInstanceStub.h */,
+				53A9BEF716282FC2003F5372 /* ServerConfiguration.cpp */,
+				53A9BEF816282FC2003F5372 /* ServerConfiguration.h */,
+				53A9BEFA16282FD2003F5372 /* IServerFactory.cpp */,
+				53A9BEFB16282FD2003F5372 /* IServerFactory.h */,
 				53A9BEE416267CE2003F5372 /* MinServer.1 */,
 			);
 			path = MinServer;
+			sourceTree = "<group>";
+		};
+		62FBD7151628B18900488D84 /* Loki */ = {
+			isa = PBXGroup;
+			children = (
+				62FBD7161628B1AF00488D84 /* include */,
+				62FBD7141628B17600488D84 /* src */,
+			);
+			name = Loki;
+			sourceTree = "<group>";
+		};
+		62FBD74F1628BAB900488D84 /* ThreadPool */ = {
+			isa = PBXGroup;
+			children = (
+				62FBD7501628BAB900488D84 /* threadpool */,
+				62FBD75E1628BAB900488D84 /* threadpool.hpp */,
+			);
+			path = ThreadPool;
+			sourceTree = "<group>";
+		};
+		62FBD7501628BAB900488D84 /* threadpool */ = {
+			isa = PBXGroup;
+			children = (
+				62FBD7511628BAB900488D84 /* detail */,
+				62FBD7571628BAB900488D84 /* future.hpp */,
+				62FBD7581628BAB900488D84 /* pool.hpp */,
+				62FBD7591628BAB900488D84 /* pool_adaptors.hpp */,
+				62FBD75A1628BAB900488D84 /* scheduling_policies.hpp */,
+				62FBD75B1628BAB900488D84 /* shutdown_policies.hpp */,
+				62FBD75C1628BAB900488D84 /* size_policies.hpp */,
+				62FBD75D1628BAB900488D84 /* task_adaptors.hpp */,
+			);
+			path = threadpool;
+			sourceTree = "<group>";
+		};
+		62FBD7511628BAB900488D84 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				62FBD7521628BAB900488D84 /* future.hpp */,
+				62FBD7531628BAB900488D84 /* locking_ptr.hpp */,
+				62FBD7541628BAB900488D84 /* pool_core.hpp */,
+				62FBD7551628BAB900488D84 /* scope_guard.hpp */,
+				62FBD7561628BAB900488D84 /* worker_thread.hpp */,
+			);
+			path = detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +215,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				53A9BEE316267CE2003F5372 /* main.cpp in Sources */,
+				53A9BEED16282F2A003F5372 /* ServerManager.cpp in Sources */,
+				53A9BEF016282F3A003F5372 /* PluginHandler.cpp in Sources */,
+				53A9BEF616282FA2003F5372 /* ServerInstance.cpp in Sources */,
+				53A9BEF916282FC2003F5372 /* ServerConfiguration.cpp in Sources */,
+				53A9BEFC16282FD2003F5372 /* IServerFactory.cpp in Sources */,
+				53A9BF0316283190003F5372 /* ServerInstanceStub.cpp in Sources */,
+				62E0E4B9162ACBAA00818126 /* PluginManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +284,7 @@
 		53A9BEE916267CE2003F5372 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/loki-0.1.7/include\"/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -187,6 +292,7 @@
 		53A9BEEA16267CE2003F5372 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/loki-0.1.7/include\"/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -210,6 +316,7 @@
 				53A9BEEA16267CE2003F5372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
