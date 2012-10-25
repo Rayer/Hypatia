@@ -1,13 +1,13 @@
 //
 //  PluginHandler.h
-//  MinServer
+//  Hypatia
 //
 //  Created by Rayer Shih on 10/12/12.
 //  Copyright (c) 2012 Digital Resolve. All rights reserved.
 //
 
-#ifndef __MinServer__PluginHandler__
-#define __MinServer__PluginHandler__
+#ifndef __Hypatia__PluginHandler__
+#define __Hypatia__PluginHandler__
 
 #include "threadpool.hpp"
 
@@ -15,4 +15,4 @@ class PluginHandler {
     
 };
 
-#endif /* defined(__MinServer__PluginHandler__) */
+#endif /* defined(__Hypatia__PluginHandler__) */

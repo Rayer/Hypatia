@@ -1,13 +1,13 @@
 //
 //  ServerInstanceStub.h
-//  MinServer
+//  Hypatia
 //
 //  Created by Rayer Shih on 10/12/12.
 //  Copyright (c) 2012 Digital Resolve. All rights reserved.
 //
 
-#ifndef __MinServer__ServerInstanceStub__
-#define __MinServer__ServerInstanceStub__
+#ifndef __Hypatia__ServerInstanceStub__
+#define __Hypatia__ServerInstanceStub__
 
 #include <iostream>
 #include "ServerInstance.h"
@@ -33,4 +33,4 @@ public:
     static ServerInstance* createFromConfiguration(Configuration& conf);
 };
 
-#endif /* defined(__MinServer__ServerInstanceStub__) */
+#endif /* defined(__Hypatia__ServerInstanceStub__) */

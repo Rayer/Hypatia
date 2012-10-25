@@ -1,13 +1,13 @@
 //
 //  PluginManager.h
-//  MinServer
+//  Hypatia
 //
 //  Created by Rayer on 10/14/12.
 //  Copyright (c) 2012 Digital Resolve. All rights reserved.
 //
 
-#ifndef __MinServer__PluginManager__
-#define __MinServer__PluginManager__
+#ifndef __Hypatia__PluginManager__
+#define __Hypatia__PluginManager__
 
 #include <Singleton.h>
 #include <vector>
@@ -28,4 +28,4 @@ public:
 
 extern Loki::SingletonHolder<PluginManager> SinglePluginManager;
 
-#endif /* defined(__MinServer__PluginManager__) */
+#endif /* defined(__Hypatia__PluginManager__) */

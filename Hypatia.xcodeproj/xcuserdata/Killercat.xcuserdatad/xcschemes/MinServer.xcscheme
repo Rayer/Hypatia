@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53A9BEDD16267CE2003F5372"
-               BuildableName = "MinServer"
-               BlueprintName = "MinServer"
-               ReferencedContainer = "container:MinServer.xcodeproj">
+               BuildableName = "Hypatia"
+               BlueprintName = "Hypatia"
+               ReferencedContainer = "container:Hypatia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53A9BEDD16267CE2003F5372"
-            BuildableName = "MinServer"
-            BlueprintName = "MinServer"
-            ReferencedContainer = "container:MinServer.xcodeproj">
+            BuildableName = "Hypatia"
+            BlueprintName = "Hypatia"
+            ReferencedContainer = "container:Hypatia.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53A9BEDD16267CE2003F5372"
-            BuildableName = "MinServer"
-            BlueprintName = "MinServer"
-            ReferencedContainer = "container:MinServer.xcodeproj">
+            BuildableName = "Hypatia"
+            BlueprintName = "Hypatia"
+            ReferencedContainer = "container:Hypatia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53A9BEDD16267CE2003F5372"
-            BuildableName = "MinServer"
-            BlueprintName = "MinServer"
-            ReferencedContainer = "container:MinServer.xcodeproj">
+            BuildableName = "Hypatia"
+            BlueprintName = "Hypatia"
+            ReferencedContainer = "container:Hypatia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
