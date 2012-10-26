@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		53A119411638FE5C009CD55D /* LevelMutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LevelMutex.cpp; sourceTree = "<group>"; };
+		53A119421638FE5C009CD55D /* Library.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Library.vcproj; sourceTree = "<group>"; };
+		53A119431638FE5C009CD55D /* Library_MSVC9.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Library_MSVC9.vcproj; sourceTree = "<group>"; };
+		53A119441638FE5C009CD55D /* Library_MSVC_8.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Library_MSVC_8.vcproj; sourceTree = "<group>"; };
+		53A119451638FE5C009CD55D /* make.msvc.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = make.msvc.bat; sourceTree = "<group>"; };
+		53A119461638FE5C009CD55D /* make.msvc.dll.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = make.msvc.dll.bat; sourceTree = "<group>"; };
+		53A119471638FE5C009CD55D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		53A119481638FE5C009CD55D /* OrderedStatic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OrderedStatic.cpp; sourceTree = "<group>"; };
+		53A119491638FE5C009CD55D /* SafeFormat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SafeFormat.cpp; sourceTree = "<group>"; };
+		53A1194A1638FE5C009CD55D /* Singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
+		53A1194B1638FE5C009CD55D /* SmallObj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmallObj.cpp; sourceTree = "<group>"; };
+		53A1194C1638FE5C009CD55D /* SmartPtr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmartPtr.cpp; sourceTree = "<group>"; };
+		53A1194D1638FE5C009CD55D /* StrongPtr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StrongPtr.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		53A119391638FE5C009CD55D = {
+			isa = PBXGroup;
+			children = (
+				53A119411638FE5C009CD55D /* LevelMutex.cpp */,
+				53A119421638FE5C009CD55D /* Library.vcproj */,
+				53A119431638FE5C009CD55D /* Library_MSVC9.vcproj */,
+				53A119441638FE5C009CD55D /* Library_MSVC_8.vcproj */,
+				53A119451638FE5C009CD55D /* make.msvc.bat */,
+				53A119461638FE5C009CD55D /* make.msvc.dll.bat */,
+				53A119471638FE5C009CD55D /* Makefile */,
+				53A119481638FE5C009CD55D /* OrderedStatic.cpp */,
+				53A119491638FE5C009CD55D /* SafeFormat.cpp */,
+				53A1194A1638FE5C009CD55D /* Singleton.cpp */,
+				53A1194B1638FE5C009CD55D /* SmallObj.cpp */,
+				53A1194C1638FE5C009CD55D /* SmartPtr.cpp */,
+				53A1194D1638FE5C009CD55D /* StrongPtr.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		53A119401638FE5C009CD55D /* src */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 53A1194E1638FE5C009CD55D /* Build configuration list for PBXLegacyTarget "src" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/Killercat/Develop/XCode/Hypatia/loki-0.1.7/src";
+			dependencies = (
+			);
+			name = src;
+			passBuildSettingsInEnvironment = 1;
+			productName = src;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		53A1193B1638FE5C009CD55D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 53A1193E1638FE5C009CD55D /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53A119391638FE5C009CD55D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53A119401638FE5C009CD55D /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		53A1193C1638FE5C009CD55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		53A1193D1638FE5C009CD55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		53A1194F1638FE5C009CD55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Debug;
+		};
+		53A119501638FE5C009CD55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53A1193E1638FE5C009CD55D /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A1193C1638FE5C009CD55D /* Debug */,
+				53A1193D1638FE5C009CD55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A1194E1638FE5C009CD55D /* Build configuration list for PBXLegacyTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A1194F1638FE5C009CD55D /* Debug */,
+				53A119501638FE5C009CD55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53A1193B1638FE5C009CD55D /* Project object */;
+}

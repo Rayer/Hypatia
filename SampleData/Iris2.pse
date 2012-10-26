@@ -1,0 +1,7 @@
+Name=Iris2
+Description=Simple Socket Test Iris2
+Template=./template/simplesocket.template
+CreateTime=0
+LastUpdateTime=0
+LogPattern=./log/$(Name)_$(LastUpdateTime).log
+UUID=

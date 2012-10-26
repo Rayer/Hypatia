@@ -1,0 +1,5 @@
+Name=Hypatia Cluster1
+CreateTime=0
+LastUpdateTime=0
+LogPattern=./log/$(Name)_$(LastUpdateTime).log
+AutoInvokeServer=[Iris1.ps, Iris2.ps, Iris3.ps];

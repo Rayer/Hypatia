@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ServerManagerPattern>
+    <ServerManager>
+        <Name>Hypatia Cluster 1</Name>
+        <CreateTime>0</CreateTime>
+        <LastUpdateTime>0</LastUpdateTime>
+        <LogPattern>./log/$(Name)_$(LastUpdateTime).log</LogPattern>
+    </ServerManager>
+</ServerManagerPattern>
+

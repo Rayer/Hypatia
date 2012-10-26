@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		53A119A3163A2672009CD55D /* PlainSettingReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119A1163A2672009CD55D /* PlainSettingReader.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		53A9BEDC16267CE2003F5372 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,25 +23,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		53A118DB1638FCDD009CD55D /* IServerFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IServerFactory.cpp; sourceTree = "<group>"; };
-		53A118DC1638FCDD009CD55D /* IServerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServerFactory.h; sourceTree = "<group>"; };
-		53A118DD1638FCDD009CD55D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		53A118DE1638FCDD009CD55D /* MinServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MinServer.1; sourceTree = "<group>"; };
-		53A118DF1638FCDD009CD55D /* PluginHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PluginHandler.cpp; sourceTree = "<group>"; };
-		53A118E01638FCDD009CD55D /* PluginHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginHandler.h; sourceTree = "<group>"; };
-		53A118E11638FCDD009CD55D /* PluginManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PluginManager.cpp; sourceTree = "<group>"; };
-		53A118E21638FCDD009CD55D /* PluginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginManager.h; sourceTree = "<group>"; };
-		53A118E31638FCDD009CD55D /* ServerConfiguration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerConfiguration.cpp; sourceTree = "<group>"; };
-		53A118E41638FCDD009CD55D /* ServerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerConfiguration.h; sourceTree = "<group>"; };
-		53A118E51638FCDD009CD55D /* ServerInstance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerInstance.cpp; sourceTree = "<group>"; };
-		53A118E61638FCDD009CD55D /* ServerInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerInstance.h; sourceTree = "<group>"; };
-		53A118E71638FCDD009CD55D /* ServerInstanceStub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerInstanceStub.cpp; sourceTree = "<group>"; };
-		53A118E81638FCDD009CD55D /* ServerInstanceStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerInstanceStub.h; sourceTree = "<group>"; };
-		53A118E91638FCDD009CD55D /* ServerManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerManager.cpp; sourceTree = "<group>"; };
-		53A118EA1638FCDD009CD55D /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		53A119111638FE16009CD55D /* IServerFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IServerFactory.cpp; sourceTree = "<group>"; };
+		53A119121638FE16009CD55D /* IServerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServerFactory.h; sourceTree = "<group>"; };
+		53A119131638FE16009CD55D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		53A119151638FE16009CD55D /* PluginHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PluginHandler.cpp; sourceTree = "<group>"; };
+		53A119161638FE16009CD55D /* PluginHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginHandler.h; sourceTree = "<group>"; };
+		53A119171638FE16009CD55D /* PluginManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PluginManager.cpp; sourceTree = "<group>"; };
+		53A119181638FE16009CD55D /* PluginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginManager.h; sourceTree = "<group>"; };
+		53A119191638FE16009CD55D /* ServerConfiguration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerConfiguration.cpp; sourceTree = "<group>"; };
+		53A1191A1638FE16009CD55D /* ServerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerConfiguration.h; sourceTree = "<group>"; };
+		53A1191B1638FE16009CD55D /* ServerInstance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerInstance.cpp; sourceTree = "<group>"; };
+		53A1191C1638FE16009CD55D /* ServerInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerInstance.h; sourceTree = "<group>"; };
+		53A1191D1638FE16009CD55D /* ServerInstanceStub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerInstanceStub.cpp; sourceTree = "<group>"; };
+		53A1191E1638FE16009CD55D /* ServerInstanceStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerInstanceStub.h; sourceTree = "<group>"; };
+		53A1191F1638FE16009CD55D /* ServerManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerManager.cpp; sourceTree = "<group>"; };
+		53A119201638FE16009CD55D /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		53A119961638FFEA009CD55D /* ServerConfig.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ServerConfig.xml; sourceTree = "<group>"; };
+		53A1199716390A98009CD55D /* ServerConfig.setting */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ServerConfig.setting; sourceTree = "<group>"; };
+		53A1199816390E3D009CD55D /* Iris1.pse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Iris1.pse; sourceTree = "<group>"; };
+		53A1199F163933E7009CD55D /* Iris2.pse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Iris2.pse; sourceTree = "<group>"; };
+		53A119A016393406009CD55D /* Iris3.pse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Iris3.pse; sourceTree = "<group>"; };
+		53A119A1163A2672009CD55D /* PlainSettingReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlainSettingReader.cpp; sourceTree = "<group>"; };
+		53A119A2163A2672009CD55D /* PlainSettingReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainSettingReader.h; sourceTree = "<group>"; };
 		53A9BEDE16267CE2003F5372 /* Hypatia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hypatia; sourceTree = BUILT_PRODUCTS_DIR; };
-		62FBD7141628B17600488D84 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "loki-0.1.7/src"; sourceTree = "<group>"; };
-		62FBD7161628B1AF00488D84 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = "loki-0.1.7/include"; sourceTree = "<group>"; };
 		62FBD7521628BAB900488D84 /* future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = future.hpp; sourceTree = "<group>"; };
 		62FBD7531628BAB900488D84 /* locking_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = locking_ptr.hpp; sourceTree = "<group>"; };
 		62FBD7541628BAB900488D84 /* pool_core.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pool_core.hpp; sourceTree = "<group>"; };
@@ -64,35 +72,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53A118DA1638FCDD009CD55D /* Hypatia */ = {
+		53A119101638FE16009CD55D /* Hypatia */ = {
 			isa = PBXGroup;
 			children = (
-				53A118DB1638FCDD009CD55D /* IServerFactory.cpp */,
-				53A118DC1638FCDD009CD55D /* IServerFactory.h */,
-				53A118DD1638FCDD009CD55D /* main.cpp */,
-				53A118DE1638FCDD009CD55D /* MinServer.1 */,
-				53A118DF1638FCDD009CD55D /* PluginHandler.cpp */,
-				53A118E01638FCDD009CD55D /* PluginHandler.h */,
-				53A118E11638FCDD009CD55D /* PluginManager.cpp */,
-				53A118E21638FCDD009CD55D /* PluginManager.h */,
-				53A118E31638FCDD009CD55D /* ServerConfiguration.cpp */,
-				53A118E41638FCDD009CD55D /* ServerConfiguration.h */,
-				53A118E51638FCDD009CD55D /* ServerInstance.cpp */,
-				53A118E61638FCDD009CD55D /* ServerInstance.h */,
-				53A118E71638FCDD009CD55D /* ServerInstanceStub.cpp */,
-				53A118E81638FCDD009CD55D /* ServerInstanceStub.h */,
-				53A118E91638FCDD009CD55D /* ServerManager.cpp */,
-				53A118EA1638FCDD009CD55D /* ServerManager.h */,
+				53A119111638FE16009CD55D /* IServerFactory.cpp */,
+				53A119121638FE16009CD55D /* IServerFactory.h */,
+				53A119131638FE16009CD55D /* main.cpp */,
+				53A119151638FE16009CD55D /* PluginHandler.cpp */,
+				53A119161638FE16009CD55D /* PluginHandler.h */,
+				53A119171638FE16009CD55D /* PluginManager.cpp */,
+				53A119181638FE16009CD55D /* PluginManager.h */,
+				53A119191638FE16009CD55D /* ServerConfiguration.cpp */,
+				53A1191A1638FE16009CD55D /* ServerConfiguration.h */,
+				53A1191B1638FE16009CD55D /* ServerInstance.cpp */,
+				53A1191C1638FE16009CD55D /* ServerInstance.h */,
+				53A1191D1638FE16009CD55D /* ServerInstanceStub.cpp */,
+				53A1191E1638FE16009CD55D /* ServerInstanceStub.h */,
+				53A1191F1638FE16009CD55D /* ServerManager.cpp */,
+				53A119201638FE16009CD55D /* ServerManager.h */,
+				53A119A1163A2672009CD55D /* PlainSettingReader.cpp */,
+				53A119A2163A2672009CD55D /* PlainSettingReader.h */,
 			);
 			path = Hypatia;
+			sourceTree = SOURCE_ROOT;
+		};
+		53A119951638FF71009CD55D /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				53A119961638FFEA009CD55D /* ServerConfig.xml */,
+				53A1199716390A98009CD55D /* ServerConfig.setting */,
+				53A1199816390E3D009CD55D /* Iris1.pse */,
+				53A1199F163933E7009CD55D /* Iris2.pse */,
+				53A119A016393406009CD55D /* Iris3.pse */,
+			);
+			path = SampleData;
 			sourceTree = "<group>";
 		};
 		53A9BED316267CE2003F5372 = {
 			isa = PBXGroup;
 			children = (
-				53A118DA1638FCDD009CD55D /* Hypatia */,
+				53A119951638FF71009CD55D /* SampleData */,
+				53A119101638FE16009CD55D /* Hypatia */,
 				62FBD74F1628BAB900488D84 /* ThreadPool */,
-				62FBD7151628B18900488D84 /* Loki */,
 				53A9BEDF16267CE2003F5372 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,16 +124,7 @@
 				53A9BEDE16267CE2003F5372 /* Hypatia */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		62FBD7151628B18900488D84 /* Loki */ = {
-			isa = PBXGroup;
-			children = (
-				62FBD7161628B1AF00488D84 /* include */,
-				62FBD7141628B17600488D84 /* src */,
-			);
-			name = Loki;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		62FBD74F1628BAB900488D84 /* ThreadPool */ = {
 			isa = PBXGroup;
@@ -121,7 +133,7 @@
 				62FBD75E1628BAB900488D84 /* threadpool.hpp */,
 			);
 			path = ThreadPool;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		62FBD7501628BAB900488D84 /* threadpool */ = {
 			isa = PBXGroup;
@@ -201,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A119A3163A2672009CD55D /* PlainSettingReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

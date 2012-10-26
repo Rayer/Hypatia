@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		53A118F81638FE15009CD55D /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		53A118F91638FE15009CD55D /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		53A118FA1638FE15009CD55D /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		53A118FB1638FE15009CD55D /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		53A118FC1638FE15009CD55D /* Loki.cbp */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Loki.cbp; sourceTree = "<group>"; };
+		53A118FD1638FE15009CD55D /* Loki.dev */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loki.dev; sourceTree = "<group>"; };
+		53A118FE1638FE15009CD55D /* Loki.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loki.sln; sourceTree = "<group>"; };
+		53A118FF1638FE15009CD55D /* loki.spec */ = {isa = PBXFileReference; lastKnownFileType = text; path = loki.spec; sourceTree = "<group>"; };
+		53A119001638FE15009CD55D /* Loki.workspace */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Loki.workspace; sourceTree = "<group>"; };
+		53A119011638FE15009CD55D /* Loki_Debug.dev */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loki_Debug.dev; sourceTree = "<group>"; };
+		53A119021638FE15009CD55D /* Loki_MSVC_8.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loki_MSVC_8.sln; sourceTree = "<group>"; };
+		53A119031638FE15009CD55D /* Loki_MSVC_9.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loki_MSVC_9.sln; sourceTree = "<group>"; };
+		53A119041638FE15009CD55D /* macosx */ = {isa = PBXFileReference; lastKnownFileType = folder; path = macosx; sourceTree = "<group>"; };
+		53A119051638FE15009CD55D /* make.mingw.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = make.mingw.bat; sourceTree = "<group>"; };
+		53A119061638FE15009CD55D /* make.msvc.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = make.msvc.bat; sourceTree = "<group>"; };
+		53A119071638FE15009CD55D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		53A119081638FE15009CD55D /* Makefile.common */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.common; sourceTree = "<group>"; };
+		53A119091638FE15009CD55D /* Makefile.deps */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.deps; sourceTree = "<group>"; };
+		53A1190A1638FE15009CD55D /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		53A1190B1638FE15009CD55D /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		53A1190C1638FE15009CD55D /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		53A118F01638FE15009CD55D = {
+			isa = PBXGroup;
+			children = (
+				53A118F81638FE15009CD55D /* CHANGES */,
+				53A118F91638FE15009CD55D /* doc */,
+				53A118FA1638FE15009CD55D /* include */,
+				53A118FB1638FE15009CD55D /* lib */,
+				53A118FC1638FE15009CD55D /* Loki.cbp */,
+				53A118FD1638FE15009CD55D /* Loki.dev */,
+				53A118FE1638FE15009CD55D /* Loki.sln */,
+				53A118FF1638FE15009CD55D /* loki.spec */,
+				53A119001638FE15009CD55D /* Loki.workspace */,
+				53A119011638FE15009CD55D /* Loki_Debug.dev */,
+				53A119021638FE15009CD55D /* Loki_MSVC_8.sln */,
+				53A119031638FE15009CD55D /* Loki_MSVC_9.sln */,
+				53A119041638FE15009CD55D /* macosx */,
+				53A119051638FE15009CD55D /* make.mingw.bat */,
+				53A119061638FE15009CD55D /* make.msvc.bat */,
+				53A119071638FE15009CD55D /* Makefile */,
+				53A119081638FE15009CD55D /* Makefile.common */,
+				53A119091638FE15009CD55D /* Makefile.deps */,
+				53A1190A1638FE15009CD55D /* README */,
+				53A1190B1638FE15009CD55D /* src */,
+				53A1190C1638FE15009CD55D /* test */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		53A118F71638FE15009CD55D /* loki-0.1.7 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 53A1190D1638FE15009CD55D /* Build configuration list for PBXLegacyTarget "loki-0.1.7" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/Killercat/Develop/XCode/Hypatia/loki-0.1.7";
+			dependencies = (
+			);
+			name = "loki-0.1.7";
+			passBuildSettingsInEnvironment = 1;
+			productName = "loki-0.1.7";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		53A118F21638FE15009CD55D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 53A118F51638FE15009CD55D /* Build configuration list for PBXProject "loki-0.1.7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53A118F01638FE15009CD55D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53A118F71638FE15009CD55D /* loki-0.1.7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		53A118F31638FE15009CD55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		53A118F41638FE15009CD55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		53A1190E1638FE15009CD55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "loki-0.1.7";
+			};
+			name = Debug;
+		};
+		53A1190F1638FE15009CD55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "loki-0.1.7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53A118F51638FE15009CD55D /* Build configuration list for PBXProject "loki-0.1.7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A118F31638FE15009CD55D /* Debug */,
+				53A118F41638FE15009CD55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A1190D1638FE15009CD55D /* Build configuration list for PBXLegacyTarget "loki-0.1.7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A1190E1638FE15009CD55D /* Debug */,
+				53A1190F1638FE15009CD55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53A118F21638FE15009CD55D /* Project object */;
+}

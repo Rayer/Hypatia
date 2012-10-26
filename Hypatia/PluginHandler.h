@@ -9,7 +9,7 @@
 #ifndef __Hypatia__PluginHandler__
 #define __Hypatia__PluginHandler__
 
-#include "threadpool.hpp"
+//#include "threadpool.hpp"
 
 class PluginHandler {
     
