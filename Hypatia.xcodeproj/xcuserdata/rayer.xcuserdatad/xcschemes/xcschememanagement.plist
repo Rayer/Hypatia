@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MinServer.xcscheme</key>
+		<key>Hypatia.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Hypatia_Cocoa_Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>53A9BEDD16267CE2003F5372</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62660549163B77760014DD2F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

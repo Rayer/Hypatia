@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		53A119A3163A2672009CD55D /* PlainSettingReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119A1163A2672009CD55D /* PlainSettingReader.cpp */; };
+		6266053C163B76070014DD2F /* IServerFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119111638FE16009CD55D /* IServerFactory.cpp */; };
+		6266053D163B76070014DD2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119131638FE16009CD55D /* main.cpp */; };
+		6266053E163B76070014DD2F /* PluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119151638FE16009CD55D /* PluginHandler.cpp */; };
+		6266053F163B76070014DD2F /* PluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119171638FE16009CD55D /* PluginManager.cpp */; };
+		62660540163B76070014DD2F /* ServerConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119191638FE16009CD55D /* ServerConfiguration.cpp */; };
+		62660541163B76070014DD2F /* ServerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A1191B1638FE16009CD55D /* ServerInstance.cpp */; };
+		62660542163B76070014DD2F /* ServerInstanceStub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A1191D1638FE16009CD55D /* ServerInstanceStub.cpp */; };
+		62660543163B76070014DD2F /* ServerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A1191F1638FE16009CD55D /* ServerManager.cpp */; };
+		6266054D163B77760014DD2F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6266054C163B77760014DD2F /* SenTestingKit.framework */; };
+		6266054F163B77760014DD2F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6266054E163B77760014DD2F /* Cocoa.framework */; };
+		62660559163B77760014DD2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62660557163B77760014DD2F /* InfoPlist.strings */; };
+		6266055C163B77760014DD2F /* Hypatia_Cocoa_Test.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6266055B163B77760014DD2F /* Hypatia_Cocoa_Test.mm */; };
+		62660561163B77870014DD2F /* IServerFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119111638FE16009CD55D /* IServerFactory.cpp */; };
+		62660562163B77870014DD2F /* PluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119151638FE16009CD55D /* PluginHandler.cpp */; };
+		62660563163B77870014DD2F /* PluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119171638FE16009CD55D /* PluginManager.cpp */; };
+		62660564163B77870014DD2F /* ServerConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119191638FE16009CD55D /* ServerConfiguration.cpp */; };
+		62660565163B77870014DD2F /* ServerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A1191B1638FE16009CD55D /* ServerInstance.cpp */; };
+		62660566163B77870014DD2F /* ServerInstanceStub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A1191D1638FE16009CD55D /* ServerInstanceStub.cpp */; };
+		62660567163B77870014DD2F /* ServerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A1191F1638FE16009CD55D /* ServerManager.cpp */; };
+		62660568163B77870014DD2F /* PlainSettingReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A119A1163A2672009CD55D /* PlainSettingReader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +66,17 @@
 		53A119A1163A2672009CD55D /* PlainSettingReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlainSettingReader.cpp; sourceTree = "<group>"; };
 		53A119A2163A2672009CD55D /* PlainSettingReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainSettingReader.h; sourceTree = "<group>"; };
 		53A9BEDE16267CE2003F5372 /* Hypatia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hypatia; sourceTree = BUILT_PRODUCTS_DIR; };
+		6266054A163B77760014DD2F /* Hypatia_Cocoa_Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hypatia_Cocoa_Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6266054C163B77760014DD2F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6266054E163B77760014DD2F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		62660551163B77760014DD2F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		62660552163B77760014DD2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		62660553163B77760014DD2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62660556163B77760014DD2F /* Hypatia_Cocoa_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hypatia_Cocoa_Test-Info.plist"; sourceTree = "<group>"; };
+		62660558163B77760014DD2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6266055A163B77760014DD2F /* Hypatia_Cocoa_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hypatia_Cocoa_Test.h; sourceTree = "<group>"; };
+		6266055B163B77760014DD2F /* Hypatia_Cocoa_Test.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Hypatia_Cocoa_Test.mm; sourceTree = "<group>"; };
+		6266055D163B77760014DD2F /* Hypatia_Cocoa_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypatia_Cocoa_Test-Prefix.pch"; sourceTree = "<group>"; };
 		62FBD7521628BAB900488D84 /* future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = future.hpp; sourceTree = "<group>"; };
 		62FBD7531628BAB900488D84 /* locking_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = locking_ptr.hpp; sourceTree = "<group>"; };
 		62FBD7541628BAB900488D84 /* pool_core.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pool_core.hpp; sourceTree = "<group>"; };
@@ -66,6 +97,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62660546163B77760014DD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6266054D163B77760014DD2F /* SenTestingKit.framework in Frameworks */,
+				6266054F163B77760014DD2F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +154,8 @@
 				53A119951638FF71009CD55D /* SampleData */,
 				53A119101638FE16009CD55D /* Hypatia */,
 				62FBD74F1628BAB900488D84 /* ThreadPool */,
+				62660554163B77760014DD2F /* Hypatia_Cocoa_Test */,
+				6266054B163B77760014DD2F /* Frameworks */,
 				53A9BEDF16267CE2003F5372 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,9 +164,50 @@
 			isa = PBXGroup;
 			children = (
 				53A9BEDE16267CE2003F5372 /* Hypatia */,
+				6266054A163B77760014DD2F /* Hypatia_Cocoa_Test.octest */,
 			);
 			name = Products;
 			sourceTree = SOURCE_ROOT;
+		};
+		6266054B163B77760014DD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6266054C163B77760014DD2F /* SenTestingKit.framework */,
+				6266054E163B77760014DD2F /* Cocoa.framework */,
+				62660550163B77760014DD2F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62660550163B77760014DD2F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62660551163B77760014DD2F /* AppKit.framework */,
+				62660552163B77760014DD2F /* CoreData.framework */,
+				62660553163B77760014DD2F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		62660554163B77760014DD2F /* Hypatia_Cocoa_Test */ = {
+			isa = PBXGroup;
+			children = (
+				6266055A163B77760014DD2F /* Hypatia_Cocoa_Test.h */,
+				6266055B163B77760014DD2F /* Hypatia_Cocoa_Test.mm */,
+				62660555163B77760014DD2F /* Supporting Files */,
+			);
+			path = Hypatia_Cocoa_Test;
+			sourceTree = "<group>";
+		};
+		62660555163B77760014DD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62660556163B77760014DD2F /* Hypatia_Cocoa_Test-Info.plist */,
+				62660557163B77760014DD2F /* InfoPlist.strings */,
+				6266055D163B77760014DD2F /* Hypatia_Cocoa_Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
 		};
 		62FBD74F1628BAB900488D84 /* ThreadPool */ = {
 			isa = PBXGroup;
@@ -182,6 +265,24 @@
 			productReference = 53A9BEDE16267CE2003F5372 /* Hypatia */;
 			productType = "com.apple.product-type.tool";
 		};
+		62660549163B77760014DD2F /* Hypatia_Cocoa_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6266055E163B77760014DD2F /* Build configuration list for PBXNativeTarget "Hypatia_Cocoa_Test" */;
+			buildPhases = (
+				62660545163B77760014DD2F /* Sources */,
+				62660546163B77760014DD2F /* Frameworks */,
+				62660547163B77760014DD2F /* Resources */,
+				62660548163B77760014DD2F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hypatia_Cocoa_Test;
+			productName = Hypatia_Cocoa_Test;
+			productReference = 6266054A163B77760014DD2F /* Hypatia_Cocoa_Test.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,20 +305,83 @@
 			projectRoot = "";
 			targets = (
 				53A9BEDD16267CE2003F5372 /* Hypatia */,
+				62660549163B77760014DD2F /* Hypatia_Cocoa_Test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62660547163B77760014DD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62660559163B77760014DD2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62660548163B77760014DD2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53A9BEDA16267CE2003F5372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6266053C163B76070014DD2F /* IServerFactory.cpp in Sources */,
+				6266053D163B76070014DD2F /* main.cpp in Sources */,
+				6266053E163B76070014DD2F /* PluginHandler.cpp in Sources */,
+				6266053F163B76070014DD2F /* PluginManager.cpp in Sources */,
+				62660540163B76070014DD2F /* ServerConfiguration.cpp in Sources */,
+				62660541163B76070014DD2F /* ServerInstance.cpp in Sources */,
+				62660542163B76070014DD2F /* ServerInstanceStub.cpp in Sources */,
+				62660543163B76070014DD2F /* ServerManager.cpp in Sources */,
 				53A119A3163A2672009CD55D /* PlainSettingReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62660545163B77760014DD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62660561163B77870014DD2F /* IServerFactory.cpp in Sources */,
+				62660562163B77870014DD2F /* PluginHandler.cpp in Sources */,
+				62660563163B77870014DD2F /* PluginManager.cpp in Sources */,
+				62660564163B77870014DD2F /* ServerConfiguration.cpp in Sources */,
+				62660565163B77870014DD2F /* ServerInstance.cpp in Sources */,
+				62660566163B77870014DD2F /* ServerInstanceStub.cpp in Sources */,
+				62660567163B77870014DD2F /* ServerManager.cpp in Sources */,
+				62660568163B77870014DD2F /* PlainSettingReader.cpp in Sources */,
+				6266055C163B77760014DD2F /* Hypatia_Cocoa_Test.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62660557163B77760014DD2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62660558163B77760014DD2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		53A9BEE616267CE2003F5372 /* Debug */ = {
@@ -289,6 +453,32 @@
 			};
 			name = Release;
 		};
+		6266055F163B77760014DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hypatia_Cocoa_Test/Hypatia_Cocoa_Test-Prefix.pch";
+				INFOPLIST_FILE = "Hypatia_Cocoa_Test/Hypatia_Cocoa_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		62660560163B77760014DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hypatia_Cocoa_Test/Hypatia_Cocoa_Test-Prefix.pch";
+				INFOPLIST_FILE = "Hypatia_Cocoa_Test/Hypatia_Cocoa_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +499,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6266055E163B77760014DD2F /* Build configuration list for PBXNativeTarget "Hypatia_Cocoa_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6266055F163B77760014DD2F /* Debug */,
+				62660560163B77760014DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

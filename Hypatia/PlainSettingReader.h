@@ -18,7 +18,8 @@ namespace Hypatia {
         
     public:
         typedef std::map<std::string, std::list<std::string> > READER_OUTPUT;
-        bool readFromFile(const FILE* file, READER_OUTPUT* output);
+        bool readFromFile(const std::string& path, READER_OUTPUT* output);
+        bool checkFileIntegration(const std::string& path);
     };
 }
 

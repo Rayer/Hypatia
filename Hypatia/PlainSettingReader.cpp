@@ -7,13 +7,22 @@
 //
 
 #include "PlainSettingReader.h"
-#include <cstdio>
+#include <fstream>
+#include <iostream>
 
 using namespace std;
 using namespace Hypatia;
 
-//bool Hypatia::PlainSettingReader::readFromFile(int fd, std::map<std::string, std::list<std::string> >& output) {
-//    
-//    return true;
-//};
-//
+bool PlainSettingReader::readFromFile(const std::string& path, READER_OUTPUT *output) {
+    wifstream wifs;
+    wifs.open(path.c_str());
+    wstring buffer;
+    wifs >> buffer;
+    wcout << buffer << endl;
+    return true;
+}
+
+bool PlainSettingReader::checkFileIntegration(const std::string& path) {
+    return false;
+}
+

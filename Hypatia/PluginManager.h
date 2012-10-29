@@ -9,7 +9,6 @@
 #ifndef __Hypatia__PluginManager__
 #define __Hypatia__PluginManager__
 
-#include <Singleton.h>
 #include <vector>
 
 class PluginHolder;
@@ -26,6 +25,5 @@ public:
     
 };
 
-extern Loki::SingletonHolder<PluginManager> SinglePluginManager;
 
 #endif /* defined(__Hypatia__PluginManager__) */

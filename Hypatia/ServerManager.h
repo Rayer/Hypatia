@@ -12,7 +12,6 @@
 #include <vector>
 #include <string>
 #include <list>
-#include "Singleton.h"
 #include "PluginHandler.h"
 
 
@@ -80,7 +79,6 @@ namespace Hypatia {
         
     };
     
-    extern Loki::SingletonHolder<ServerManager> ServerManager;
 
 }
 

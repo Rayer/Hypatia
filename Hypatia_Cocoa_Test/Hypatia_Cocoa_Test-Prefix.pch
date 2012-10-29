@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Hypatia_Cocoa_Test' target in the 'Hypatia_Cocoa_Test' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
