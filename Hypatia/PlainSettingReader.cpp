@@ -23,6 +23,8 @@ bool PlainSettingReader::readFromFile(const std::string& path, READER_OUTPUT *ou
 }
 
 bool PlainSettingReader::checkFileIntegration(const std::string& path) {
+    
+    
     return false;
 }
 
